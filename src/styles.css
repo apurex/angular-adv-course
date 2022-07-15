@@ -11,7 +11,6 @@
   cursor: pointer;
 }
 
-
 #google-btn {
   align-items: center;
   display: flex;
@@ -22,4 +21,32 @@
 .img-avatar {
   width: 200px;
   height: 200px;
+}
+
+.w100 {
+  width: 100px;
+}
+
+.w140 {
+  width: 140px;
+}
+
+.avatar {
+  border: 1px solid grey;
+  border-radius: 100%;
+  width: 30px;
+}
+
+.fondo-modl-imagen {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.oculto {
+  display: none;
 }

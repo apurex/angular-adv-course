@@ -9,15 +9,15 @@ import { UsuariosService } from 'src/app/services/usuarios.service';
   styles: [],
 })
 export class SidebarComponent implements OnInit {
-  menuItems: any[] = [];
+  // menuItems: any[] = [];
 
   public usuario: Usuario | undefined;
 
   constructor(
-    private sidebarService: SidebarService,
+    public sidebarService: SidebarService,
     private usuarioService: UsuariosService
   ) {
-    this.menuItems = sidebarService.menu;
+    // this.menuItems = sidebarService.menu;
 
     this.usuario = usuarioService.usuario;
   }
